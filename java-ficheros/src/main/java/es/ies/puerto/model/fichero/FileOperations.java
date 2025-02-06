@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
@@ -14,7 +16,11 @@ import es.ies.puerto.model.Empleado;
 import es.ies.puerto.model.OperacionesInterfaces;
 
 
-
+/**
+ * 
+ * @author Giancarlo
+ * @version 1.0.0
+ */
 public class FileOperations implements OperacionesInterfaces{
     
     File fichero;
@@ -24,19 +30,21 @@ public class FileOperations implements OperacionesInterfaces{
      * constructor vacio
      * @return
      */
-    public FileOperations() throws IOException{
-            
-            fichero = new File("C:\\Users\\gian7\\Desktop\\java-ficheros\\src\\main\\resources", path);   
+    public FileOperations() {
+        
+        try {
+            URL sources = getClass().getClassLoader().getResource(path);
+            fichero = new File(sources.toURI());
             if (!fichero.exists() || !fichero.isFile()) {
-            fichero.createNewFile();
+                throw  new IllegalArgumentException("sss");
             }
+            System.out.println("path del fichero:"+sources.getPath());    
+        } catch (IllegalArgumentException | URISyntaxException e) {
+            System.out.println("Se ha producido un error no controlado");
         }
+        
+    }
 
-    /**
-     * Metodo que permite crear un empleado dentro del fichero
-     * @param empleado
-     * @return
-     */
     @Override
     public boolean create(Empleado empleado) {
         if (empleado == null || empleado.getIdentificador() == null) {
@@ -59,12 +67,6 @@ public class FileOperations implements OperacionesInterfaces{
         }
     }
 
-    
-    /**
-     * Metodo que permite eliminar un empleado dentro del fichero
-     * @param empleado
-     * @return
-     */
     @Override
     public boolean delete(String identificador) {
         if (identificador == null || identificador.isEmpty()) {
@@ -103,11 +105,6 @@ public class FileOperations implements OperacionesInterfaces{
         return empleados;
     }
 
-    /**
-     * Metodo que permite buscar un empleado dentro del fichero
-     * @param empleado
-     * @return
-     */
     @Override
     public Empleado read(String identificador) {
         if (identificador == null || identificador.isEmpty()) {
@@ -117,11 +114,6 @@ public class FileOperations implements OperacionesInterfaces{
         return read(empleado);
     }
 
-    /**
-     * Metodo que permite buscar un empleado dentro del fichero
-     * @param empleado
-     * @return
-     */
     @Override
     public Empleado read(Empleado empleado) {
         if (empleado == null || empleado.getIdentificador() == null) {
@@ -134,12 +126,6 @@ public class FileOperations implements OperacionesInterfaces{
         return empleados.get(empleado.getIdentificador());
     }
 
-    
-    /**
-     * Metodo que permite modificar una empleado dentro del fichero
-     * @param empleado
-     * @return
-     */
     @Override
     public boolean update(Empleado empleado) {
         if (empleado == null || empleado.getIdentificador() == null) {
@@ -166,13 +152,8 @@ public class FileOperations implements OperacionesInterfaces{
         return true;
     }
 
-    /**
-     * Metodo que permite buscar a todos los empleados que tenga un puesto especifico dentro del fichero
-     * @param empleado
-     * @return
-     */
     @Override
-    public Map empleadosPorPuesto(String puesto) {
+    public Map<String, Empleado> empleadosPorPuesto(String puesto) {
         Map<String, Empleado> empleados = new TreeMap<>();
         if (puesto == null || puesto.isEmpty()) {
             return empleados;
@@ -186,13 +167,8 @@ public class FileOperations implements OperacionesInterfaces{
         return empleados;
     }
 
-    /**
-     * Metodo que permite buscar a todos los empleados que hallan nacido entre dos fechas den del fichero
-     * @param empleado
-     * @return
-     */
     @Override
-    public Map empleadosPorEdad(String fechaInicio, String fechaFin) {
+    public Map<String, Empleado> empleadosPorEdad(String fechaInicio, String fechaFin) {
         Map<String, Empleado> empleados = new TreeMap<>();
         if (fechaInicio == null || fechaInicio.isEmpty() || fechaFin == null || fechaFin.isEmpty()) {
             return empleados;
@@ -202,7 +178,7 @@ public class FileOperations implements OperacionesInterfaces{
 
         LocalDate primeraFecha = LocalDate.parse(fechaInicio, formato);
         LocalDate segundaFecha = LocalDate.parse(fechaFin, formato);
-        LocalDate fechaEmpleado = LocalDate.now();
+        LocalDate fechaEmpleado;
         for (Empleado i : listaEmpleados.values()) {
             fechaEmpleado = LocalDate.parse(i.getFechaNacimiento(), formato);
             if (primeraFecha.isBefore(fechaEmpleado) && segundaFecha.isAfter(fechaEmpleado)) {

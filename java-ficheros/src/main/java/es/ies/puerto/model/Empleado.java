@@ -4,6 +4,11 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
+/**
+ * 
+ * @author Giancarlo
+ * @version 1.0.0
+ */
 public class Empleado {
     String identificador;
     String nombre;

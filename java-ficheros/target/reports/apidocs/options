@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'java-ficheros 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'java-ficheros 1.0-SNAPSHOT API'

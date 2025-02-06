@@ -1,0 +1,209 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mes.ies.puerto.file:java-ficheros[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding java-ficheros 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mjava-ficheros[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-javadoc-plugin:3.11.2:javadoc[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mjava-ficheros[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-javadoc-plugin:3.11.2:javadoc[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mjava-ficheros[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:3.11.2:javadoc[m [1m(default-cli)[m @ [36mjava-ficheros[0;1m ---[m
+[[1;33mWARNING[m] Source files encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] No previous run data found, generating javadoc.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.584 s
+[[1;34mINFO[m] Finished at: 2025-02-06T15:30:07Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-javadoc-plugin:3.11.2:javadoc[m [1m(default-cli)[m on project [36mjava-ficheros[m: [1;31mAn error has occurred in Javadoc report generation: [m
+[[1;31mERROR[m] [1;31mExit code: 1[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/file/EjemploFile.java:10: warning: no comment[m
+[[1;31mERROR[m] [1;31mpublic class EjemploFile {[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/file/EjemploFile.java:11: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public static void main(String[] args) {[m
+[[1;31mERROR[m] [1;31m                       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:16: error: invalid use of @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:16: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:23: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param identificador[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:24: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param nombre[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:25: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param puesto[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:26: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param salario[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:27: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param fechaNacimiento[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:39: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param identificador[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:48: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:93: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:123: error: @param name not found[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m              ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:123: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:124: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:7: warning: no comment[m
+[[1;31mERROR[m] [1;31mpublic class Empleado {[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:82: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public String getFechaNacimiento() {[m
+[[1;31mERROR[m] [1;31m                  ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:58: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public String getNombre() {[m
+[[1;31mERROR[m] [1;31m                  ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:66: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public String getPuesto() {[m
+[[1;31mERROR[m] [1;31m                  ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:74: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public double getSalario() {[m
+[[1;31mERROR[m] [1;31m                  ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:86: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public void setFechaNacimiento(String fechaNacimiento) {[m
+[[1;31mERROR[m] [1;31m                ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:54: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public void setIdentificador(String identificador) {[m
+[[1;31mERROR[m] [1;31m                ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:62: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public void setNombre(String nombre) {[m
+[[1;31mERROR[m] [1;31m                ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:70: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public void setPuesto(String puesto) {[m
+[[1;31mERROR[m] [1;31m                ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/Empleado.java:78: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public void setSalario(double salario) {[m
+[[1;31mERROR[m] [1;31m                ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:14: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param identificador[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:15: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:25: error: invalid use of @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:25: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:27: warning: no @throws for java.io.IOException[m
+[[1;31mERROR[m] [1;31m    public FileOperations() throws IOException{[m
+[[1;31mERROR[m] [1;31m           ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:37: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:38: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:65: error: @param name not found[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m              ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:65: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:66: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:108: error: @param name not found[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m              ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:108: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:109: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:122: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:123: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:140: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:141: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:171: error: @param name not found[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m              ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:171: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:172: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:191: error: @param name not found[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m              ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:191: warning: no description for @param[m
+[[1;31mERROR[m] [1;31m     * @param empleado[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:192: warning: no description for @return[m
+[[1;31mERROR[m] [1;31m     * @return[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:18: warning: no comment[m
+[[1;31mERROR[m] [1;31mpublic class FileOperations implements OperacionesInterfaces{[m
+[[1;31mERROR[m] [1;31m       ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/fichero/FileOperations.java:90: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public Map<String, Empleado> read(File file) {[m
+[[1;31mERROR[m] [1;31m                                 ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:10: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public boolean create(Empleado empleado);[m
+[[1;31mERROR[m] [1;31m                   ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:19: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public Empleado read(String identificador);[m
+[[1;31mERROR[m] [1;31m                    ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:18: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public Empleado read(Empleado empleado);[m
+[[1;31mERROR[m] [1;31m                    ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:11: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public boolean update(Empleado empleado);[m
+[[1;31mERROR[m] [1;31m                   ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:20: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public Map<String, Empleado> empleadosPorPuesto(String puesto);[m
+[[1;31mERROR[m] [1;31m                                 ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/model/OperacionesInterfaces.java:21: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public Map<String, Empleado> empleadosPorEdad(String fechaInicio, String fechaFin);[m
+[[1;31mERROR[m] [1;31m                                 ^[m
+[[1;31mERROR[m] [1;31m/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/src/main/java/es/ies/puerto/Main.java:14: warning: no comment[m
+[[1;31mERROR[m] [1;31m    public static void main(String[] args) throws IOException {[m
+[[1;31mERROR[m] [1;31m                       ^[m
+[[1;31mERROR[m] [1;31m7 errors[m
+[[1;31mERROR[m] [1;31m50 warnings[m
+[[1;31mERROR[m] [1;31mCommand line was: /usr/lib/jvm/java-17-openjdk-amd64/bin/javadoc -J-Duser.language= -J-Duser.country= @options @packages[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mRefer to the generated Javadoc files in '/home/dam/Escritorio/hola/gestion-empleados-Map/java-ficheros/target/reports/apidocs' dir.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
