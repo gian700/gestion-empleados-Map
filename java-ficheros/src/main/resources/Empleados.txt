@@ -1,0 +1,3 @@
+1, Pato lucas, Diseñadora, 2800.75, 10\09\1990
+2, Ana Gómez, Diseñadora, 2800.75, 10\01\1990
+3, Luis López, gerente, 4000.0, 30\07\2000
